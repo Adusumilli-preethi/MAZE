@@ -1,0 +1,26 @@
+
+.maze {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+}
+.wall {
+    background-color: #000;
+}
+.path {
+    background-color: #0f0;
+}
+.start {
+    background-color: #f00;
+}
+.end {
+    background-color: #00f;
+}
+.user {
+    background-color: #ff0;
+}
+.cell {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+}
